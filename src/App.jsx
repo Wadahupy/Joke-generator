@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-2xl h-2/3 flex flex-col border border-black">
+      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-2xl h-2/3 flex flex-col border border-black mx-5">
         <h2 className="text-2xl font-semibold mb-4 text-center">JOKE WARD</h2>
         <div className="flex-1 bg-gray-100 rounded-xl p-5 border border-black overflow-auto">
           {loading && (
