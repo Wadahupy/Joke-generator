@@ -11,7 +11,7 @@ function App() {
   const fetchJoke = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("https://v2.jokeapi.dev/joke/Dark");
+      const res = await axios.get("https://v2.jokeapi.dev/joke/Any");
       setJoke(res.data);
     } catch (err) {
       setError("Failed to fetch joke. Try again!");
@@ -52,6 +52,7 @@ function App() {
             </>
           )}
         </div>
+
         {/* Button for generating joke */}
         <button
           onClick={fetchJoke}
